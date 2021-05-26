@@ -14,6 +14,8 @@ namespace NumericCulculus6_2
         private double[,] y_next;
         private double[,] z;
 
+        private bool solutionFound;
+
         public Solver(int N, int M)
         {
             this.M = M;
@@ -28,6 +30,8 @@ namespace NumericCulculus6_2
             y = new double[N + 1, M + 1];
             y_next = new double[N + 1, M + 1];
             z = new double[N + 1, M + 1];
+
+            solutionFound = false;
 
             for (int i = 0; i <= N; i++)
             {
@@ -96,7 +100,11 @@ namespace NumericCulculus6_2
                         y_next[i, j + 1] = alpha[i + 1] * y_next[i + 1, j + 1] + beta[i + 1];
                     }
 
-                    if (Utilities.NORM(y, y_next, j + 1) < epsilon) break;
+                    if (Utilities.NORM(y, y_next, j + 1) < epsilon)
+                    {
+                        solutionFound = true;
+                        break;
+                    }
 
                     Utilities.COPY(y_next, y, j + 1);
                 }
@@ -107,13 +115,20 @@ namespace NumericCulculus6_2
 
         public void Show()
         {
-            Console.WriteLine("y:");
-            Utilities.PRINT(y_next);
+            if (solutionFound)
+            {
+                Console.WriteLine("y:");
+                Utilities.PRINT(y_next);
 
-            Console.WriteLine("z:");
-            Utilities.PRINT(z);
+                Console.WriteLine("z:");
+                Utilities.PRINT(z);
 
-            Console.WriteLine($"Max. error is {Utilities.MAX(z)}");
+                Console.WriteLine($"Max. error is {Utilities.MAX(z)}");
+            } 
+            else
+            {
+                Console.WriteLine("Solution wasn't found");
+            }
         }
     }
 }
