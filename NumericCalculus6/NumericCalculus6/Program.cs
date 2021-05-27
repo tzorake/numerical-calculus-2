@@ -1,12 +1,12 @@
 ﻿using System;
 
-namespace NumericCulculus6_2
+namespace NumericCalculus6
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Solver s = new Solver(10, 10);
+            Solver s = new Solver(100, 10);
             s.Solve();
             s.Show();
         }

@@ -1,11 +1,11 @@
 ﻿using System;
 
-namespace NumericCulculus6_2
+namespace NumericCalculus6
 {
     class Solver
     {
         public readonly static int maxIter = 800;
-        public readonly static double epsilon = 0.001;
+        public readonly static double epsilon = 1e-4;
 
         private int N, M;
         private double h, tau;

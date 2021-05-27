@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Andrey\\source\\repos\\NumericCalculus6\\NumericCalculus6\\NumericCalculus6.csproj": {}
+    "C:\\Users\\Andrey\\Desktop\\project\\numerical-calculus-2\\NumericCalculus6\\NumericCalculus6\\NumericCalculus6.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Andrey\\source\\repos\\NumericCalculus6\\NumericCalculus6\\NumericCalculus6.csproj": {
+    "C:\\Users\\Andrey\\Desktop\\project\\numerical-calculus-2\\NumericCalculus6\\NumericCalculus6\\NumericCalculus6.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Andrey\\source\\repos\\NumericCalculus6\\NumericCalculus6\\NumericCalculus6.csproj",
+        "projectUniqueName": "C:\\Users\\Andrey\\Desktop\\project\\numerical-calculus-2\\NumericCalculus6\\NumericCalculus6\\NumericCalculus6.csproj",
         "projectName": "NumericCalculus6",
-        "projectPath": "C:\\Users\\Andrey\\source\\repos\\NumericCalculus6\\NumericCalculus6\\NumericCalculus6.csproj",
+        "projectPath": "C:\\Users\\Andrey\\Desktop\\project\\numerical-calculus-2\\NumericCalculus6\\NumericCalculus6\\NumericCalculus6.csproj",
         "packagesPath": "C:\\Users\\Andrey\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Andrey\\source\\repos\\NumericCalculus6\\NumericCalculus6\\obj\\",
+        "outputPath": "C:\\Users\\Andrey\\Desktop\\project\\numerical-calculus-2\\NumericCalculus6\\NumericCalculus6\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Andrey\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,3 +1,0 @@
-﻿  Solver.cpp
-C:\Users\Andrey\source\repos\ConsoleApplication2\ConsoleApplication2\Solver.cpp(92,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  ConsoleApplication2.vcxproj -> C:\Users\Andrey\source\repos\ConsoleApplication2\Debug\ConsoleApplication2.exe

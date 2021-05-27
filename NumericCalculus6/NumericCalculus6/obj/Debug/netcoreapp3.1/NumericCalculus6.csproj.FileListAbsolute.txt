@@ -10,3 +10,16 @@ C:\Users\Andrey\source\repos\NumericCalculus6\NumericCalculus6\obj\Debug\netcore
 C:\Users\Andrey\source\repos\NumericCalculus6\NumericCalculus6\obj\Debug\netcoreapp3.1\NumericCalculus6.dll
 C:\Users\Andrey\source\repos\NumericCalculus6\NumericCalculus6\obj\Debug\netcoreapp3.1\NumericCalculus6.pdb
 C:\Users\Andrey\source\repos\NumericCalculus6\NumericCalculus6\obj\Debug\netcoreapp3.1\NumericCalculus6.genruntimeconfig.cache
+C:\Users\Andrey\Desktop\project\numerical-calculus-2\NumericCalculus6\NumericCalculus6\bin\Debug\netcoreapp3.1\NumericCalculus6.exe
+C:\Users\Andrey\Desktop\project\numerical-calculus-2\NumericCalculus6\NumericCalculus6\bin\Debug\netcoreapp3.1\NumericCalculus6.deps.json
+C:\Users\Andrey\Desktop\project\numerical-calculus-2\NumericCalculus6\NumericCalculus6\bin\Debug\netcoreapp3.1\NumericCalculus6.runtimeconfig.json
+C:\Users\Andrey\Desktop\project\numerical-calculus-2\NumericCalculus6\NumericCalculus6\bin\Debug\netcoreapp3.1\NumericCalculus6.runtimeconfig.dev.json
+C:\Users\Andrey\Desktop\project\numerical-calculus-2\NumericCalculus6\NumericCalculus6\bin\Debug\netcoreapp3.1\NumericCalculus6.dll
+C:\Users\Andrey\Desktop\project\numerical-calculus-2\NumericCalculus6\NumericCalculus6\bin\Debug\netcoreapp3.1\NumericCalculus6.pdb
+C:\Users\Andrey\Desktop\project\numerical-calculus-2\NumericCalculus6\NumericCalculus6\obj\Debug\netcoreapp3.1\NumericCalculus6.AssemblyInfoInputs.cache
+C:\Users\Andrey\Desktop\project\numerical-calculus-2\NumericCalculus6\NumericCalculus6\obj\Debug\netcoreapp3.1\NumericCalculus6.AssemblyInfo.cs
+C:\Users\Andrey\Desktop\project\numerical-calculus-2\NumericCalculus6\NumericCalculus6\obj\Debug\netcoreapp3.1\NumericCalculus6.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\Desktop\project\numerical-calculus-2\NumericCalculus6\NumericCalculus6\obj\Debug\netcoreapp3.1\NumericCalculus6.dll
+C:\Users\Andrey\Desktop\project\numerical-calculus-2\NumericCalculus6\NumericCalculus6\obj\Debug\netcoreapp3.1\NumericCalculus6.pdb
+C:\Users\Andrey\Desktop\project\numerical-calculus-2\NumericCalculus6\NumericCalculus6\obj\Debug\netcoreapp3.1\NumericCalculus6.genruntimeconfig.cache
+C:\Users\Andrey\Desktop\project\numerical-calculus-2\NumericCalculus6\NumericCalculus6\obj\Debug\netcoreapp3.1\NumericCalculus6.csprojAssemblyReference.cache

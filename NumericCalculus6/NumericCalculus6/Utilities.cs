@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace NumericCulculus6_2
+namespace NumericCalculus6
 {
     class Utilities
     {
@@ -11,12 +11,14 @@ namespace NumericCulculus6_2
 
         public static double PHI(double u)
         {
-            return u * u * u;
+            //return u * u * u;
+            return u * u;
         }
 
         public static double DPHI(double u)
         {
-            return 3.0 * u * u;
+            //return 3.0 * u * u;
+            return 2.0 * u;
         }
 
         public static double MU1(double t)
@@ -36,7 +38,8 @@ namespace NumericCulculus6_2
 
         public static double F(double x, double t, double y)
         {
-            return 6.0 * y * y * x * x * t - 2.0 * t * t;
+            //return 6.0 * y * y * x * x * t - 2.0 * t * t;
+            return 4.0 * y * x * x * t - 2.0 * t * t;
         }
 
         public static double MAX(double[,] y)
@@ -115,7 +118,7 @@ namespace NumericCulculus6_2
             {
                 for (int j = 0; j < y.GetUpperBound(1) + 1; j++)
                 {
-                    z[i, j] = Math.Abs(y[i, j] - U(steps.Item1 * i, steps.Item2 * j));
+                    z[i, j] = Math.Abs( (y[i, j] - U(steps.Item1 * i, steps.Item2 * j)) / y[i, j]);
                 }
             }
         }

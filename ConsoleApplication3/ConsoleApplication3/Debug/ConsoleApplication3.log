@@ -1,4 +1,0 @@
-﻿  ConsoleApplication3.cpp
-C:\Users\Andrey\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(13,20): warning C4018: '<': signed/unsigned mismatch
-C:\Users\Andrey\source\repos\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.cpp(167,13): warning C4326: return type of 'main' should be 'int' instead of 'void'
-  ConsoleApplication3.vcxproj -> C:\Users\Andrey\source\repos\ConsoleApplication3\Debug\ConsoleApplication3.exe

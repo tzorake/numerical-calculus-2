@@ -1,0 +1,13 @@
+C:\Users\Andrey\source\repos\NumericCalculus2\NumericCalculus2\bin\Debug\netcoreapp3.1\NumericCalculus2.exe
+C:\Users\Andrey\source\repos\NumericCalculus2\NumericCalculus2\bin\Debug\netcoreapp3.1\NumericCalculus2.deps.json
+C:\Users\Andrey\source\repos\NumericCalculus2\NumericCalculus2\bin\Debug\netcoreapp3.1\NumericCalculus2.runtimeconfig.json
+C:\Users\Andrey\source\repos\NumericCalculus2\NumericCalculus2\bin\Debug\netcoreapp3.1\NumericCalculus2.runtimeconfig.dev.json
+C:\Users\Andrey\source\repos\NumericCalculus2\NumericCalculus2\bin\Debug\netcoreapp3.1\NumericCalculus2.dll
+C:\Users\Andrey\source\repos\NumericCalculus2\NumericCalculus2\bin\Debug\netcoreapp3.1\NumericCalculus2.pdb
+C:\Users\Andrey\source\repos\NumericCalculus2\NumericCalculus2\obj\Debug\netcoreapp3.1\NumericCalculus2.csprojAssemblyReference.cache
+C:\Users\Andrey\source\repos\NumericCalculus2\NumericCalculus2\obj\Debug\netcoreapp3.1\NumericCalculus2.AssemblyInfoInputs.cache
+C:\Users\Andrey\source\repos\NumericCalculus2\NumericCalculus2\obj\Debug\netcoreapp3.1\NumericCalculus2.AssemblyInfo.cs
+C:\Users\Andrey\source\repos\NumericCalculus2\NumericCalculus2\obj\Debug\netcoreapp3.1\NumericCalculus2.csproj.CoreCompileInputs.cache
+C:\Users\Andrey\source\repos\NumericCalculus2\NumericCalculus2\obj\Debug\netcoreapp3.1\NumericCalculus2.dll
+C:\Users\Andrey\source\repos\NumericCalculus2\NumericCalculus2\obj\Debug\netcoreapp3.1\NumericCalculus2.pdb
+C:\Users\Andrey\source\repos\NumericCalculus2\NumericCalculus2\obj\Debug\netcoreapp3.1\NumericCalculus2.genruntimeconfig.cache

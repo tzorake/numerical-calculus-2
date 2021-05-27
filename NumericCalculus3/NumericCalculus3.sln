@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumericCalculus3", "NumericCalculus3\NumericCalculus3.csproj", "{1A3DC1B6-55C0-4A70-8C62-DB92C5AFFFC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A3DC1B6-55C0-4A70-8C62-DB92C5AFFFC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A3DC1B6-55C0-4A70-8C62-DB92C5AFFFC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A3DC1B6-55C0-4A70-8C62-DB92C5AFFFC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A3DC1B6-55C0-4A70-8C62-DB92C5AFFFC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0A1A787D-20D1-44B9-84F4-417FF4865CC0}
+	EndGlobalSection
+EndGlobal
