@@ -10,7 +10,7 @@ namespace NumericCalculus7
         private double[,,] y;
         private double[,,] z;
 
-        public bool showMatricies = false;
+        public bool showMatricies = true;
 
         public Solver(int N1, int N2, int M)
         {
@@ -72,17 +72,10 @@ namespace NumericCalculus7
 
                 for (int j = 0; j <= N2; j++)
                 {
-                    y_half[0, j] = Utilities.MU1(h2 * j, tau * n);
-                    y_half[N1, j] = Utilities.MU2(h2 * j, tau * n);
+                    y_half[0, j] = (Utilities.MU1(h2 * j, tau * (n + 1)) + Utilities.MU1(h2 * j, tau * n)) / 2.0 - tau / 4.0 * ((Utilities.MU1(h2 * (j - 1), tau * (n + 1)) - Utilities.MU1(h2 * (j - 1), tau * n)) - 2.0 * (Utilities.MU1(h2 * j, tau * (n + 1)) - Utilities.MU1(h2 * j, tau * n)) + (Utilities.MU1(h2 * (j + 1), tau * (n + 1)) - Utilities.MU1(h2 * (j + 1), tau * n))) / h2 / h2;
+                    y_half[N1, j] = (Utilities.MU2(h2 * j, tau * (n + 1)) + Utilities.MU2(h2 * j, tau * n)) / 2.0 - tau / 4.0 * ((Utilities.MU2(h2 * (j - 1), tau * (n + 1)) - Utilities.MU2(h2 * (j - 1), tau * n)) - 2.0 * (Utilities.MU2(h2 * j, tau * (n + 1)) - Utilities.MU2(h2 * j, tau * n)) + (Utilities.MU2(h2 * (j + 1), tau * (n + 1)) - Utilities.MU2(h2 * (j + 1), tau * n))) / h2 / h2;
                 }
 
-                for (int i = 0; i <= N1; i++)
-                {
-                    y_half[i, 0] = Utilities.MU3(h1 * i, tau * n);
-                    y_half[i, N2] = Utilities.MU4(h1 * i, tau * n);
-                }
-
-                
                 // Thomas algorithm for (n + 1/2)th layer
                 for (int j = 1; j < N2; j++)
                 {
@@ -90,11 +83,12 @@ namespace NumericCalculus7
                     double[] beta = new double[N1 + 1];
 
                     alpha[1] = 0.0;
-                    beta[1] = Utilities.MU1(h2 * j, tau * n);
+                    beta[1] = y_half[0, j];
+                    //beta[1] = Utilities.MU1(h2 * j, tau * n);
 
                     for (int i = 1; i < N1; i++)
                     {
-                        
+
                         double A = 1.0 / h1 / h1;
                         double C = 2.0 * (1.0 / h1 / h1 + 1.0 / tau);
                         double B = 1.0 / h1 / h1;
@@ -117,7 +111,8 @@ namespace NumericCalculus7
                     double[] beta = new double[N2 + 1];
 
                     alpha[1] = 0.0;
-                    beta[1] = Utilities.MU3(h1 * i, tau * n);
+                    beta[1] = y[i,0,n+1];
+                    //beta[1] = Utilities.MU3(h1 * i, tau * n);
 
                     for (int j = 1; j < N2; j++)
                     {
@@ -138,8 +133,9 @@ namespace NumericCalculus7
             }
 
             Utilities.ERROR(y, new Tuple<double, double, double>(h1, h2, tau), z);
-            
+
         }
+
 
         public void Show()
         {

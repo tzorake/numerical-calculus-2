@@ -39,7 +39,6 @@ namespace NumericCalculus7
         {
             return x1 + x2;
         }
-
         
         // f(x1,x2,t) = 2*t*(x1^3 + x2^3) - 6*t^2*(x1 + x2)
         public static double F(double x1, double x2,double t)
